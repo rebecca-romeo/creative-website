@@ -381,3 +381,30 @@ header .headerNavContainer ul {
 .brandingTextContainer .brandingText {
   width: 30%;
 }
+
+.gallery {
+  padding: 10rem 0;
+}
+.gallery .galleryImgContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.gallery .galleryImgContainer .galleryImg {
+  border-radius: 50%;
+  padding-bottom: 3.5rem;
+}
+.gallery .galleryImgContainer .arrow {
+  font-size: 3rem;
+}
+.gallery .galleryP {
+  width: 65%;
+  margin: 0 auto;
+  font-style: italic;
+}

@@ -1,0 +1,21 @@
+
+.gallery {
+  padding: 10rem 0;
+  .galleryImgContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .galleryImg {
+      border-radius: 50%;
+      padding-bottom: 3.5rem;
+    }
+    .arrow {
+      font-size: 3rem;
+    }
+  }
+  .galleryP {
+    width: 65%;
+    margin: 0 auto;
+    font-style: italic;
+  }
+} 
