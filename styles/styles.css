@@ -341,7 +341,17 @@ header .headerNavContainer ul {
   background-color: #C3DAB7;
   padding: 15rem 0 8rem;
 }
-.branding .brandingImgContainer {
+
+.line {
+  width: 0;
+  height: 12rem;
+  border: 0.5px solid grey;
+  position: absolute;
+  bottom: -80px;
+  right: 50vw;
+}
+
+.brandingImgContainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -350,13 +360,14 @@ header .headerNavContainer ul {
           justify-content: center;
   position: relative;
 }
-.branding .brandingImgContainer .circleText {
+.brandingImgContainer .circleText {
   position: absolute;
   width: 15%;
   bottom: 150px;
   left: 300px;
 }
-.branding .brandingTextContainer {
+
+.brandingTextContainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -366,6 +377,6 @@ header .headerNavContainer ul {
   gap: 5rem;
   padding-top: 6rem;
 }
-.branding .brandingTextContainer .brandingText {
+.brandingTextContainer .brandingText {
   width: 30%;
 }
