@@ -1,0 +1,41 @@
+@use "./variables" as v;
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.4rem;
+  font-family: v.$montserrat;
+  line-height: 2.4rem;
+  text-align: center;
+  letter-spacing: 0.03rem;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 3.7rem;
+  font-weight: 700;
+  letter-spacing: 0.09rem;
+}
+
+h3 {
+  font-weight: 500;
+}
+
+button {
+  font-weight: 700;
+  letter-spacing: 0.07rem;
+}
+
+p {
+  font-family: v.$openSans;
+}
+
+.headerNavContainer, h3 {
+  text-transform: uppercase;
+}
+
+// margin padding 0
+// list styles
+// text decoration 

@@ -1,0 +1,18 @@
+@use '../variables' as v;
+
+header {
+  background-image: url("../assets/home-1.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  .headerNavContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5rem;
+    ul {
+      display: flex;
+      gap: 3rem;
+    }
+  }
+}

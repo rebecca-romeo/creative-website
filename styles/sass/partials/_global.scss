@@ -1,0 +1,28 @@
+@use "./variables";
+
+.wrapper {
+  width: 90%; 
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+h1, h3, ul, p {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit
+}
+
+

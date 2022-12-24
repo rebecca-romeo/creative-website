@@ -1,0 +1,10 @@
+@use "./partials/setup";
+@use "./partials/variables";
+@use "./partials/typography";
+@use "./partials/global";
+
+@use "./partials/mediaQs";
+
+
+@use "./partials/index/header.scss";
+@use "./partials/index/brandingSection";

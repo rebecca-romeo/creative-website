@@ -1,0 +1,26 @@
+@use "../variables" as v;
+
+.branding {
+  background-color: v.$sage;
+  padding: 15rem 0 8rem;
+  .brandingImgContainer {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    .circleText {
+      position: absolute;
+      width: 15%;
+      bottom: 150px;
+      left: 300px;
+    }
+  }
+  .brandingTextContainer {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    padding-top: 6rem;
+    .brandingText {
+      width: 30%;
+    }
+  }
+}
