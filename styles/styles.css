@@ -408,3 +408,10 @@ header .headerNavContainer ul {
   margin: 0 auto;
   font-style: italic;
 }
+
+.services {
+  background-image: url("../assets/home-4.jpeg");
+  background-position: center;
+  background-size: cover;
+  height: 90vh;
+}
