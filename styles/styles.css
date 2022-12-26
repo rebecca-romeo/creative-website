@@ -472,6 +472,10 @@ header .headerNavContainer ul {
   height: 270px;
   text-align: left;
   background-color: #F6F6F6;
+  padding: 110px 4rem 4rem;
+}
+.teamUl .teamTextContent p {
+  padding-top: 2rem;
 }
 .teamUl .workWithUs {
   width: 270px;
