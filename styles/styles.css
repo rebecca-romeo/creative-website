@@ -413,5 +413,37 @@ header .headerNavContainer ul {
   background-image: url("../assets/home-4.jpeg");
   background-position: center;
   background-size: cover;
-  height: 90vh;
+  height: 100vh;
+}
+.services .servicesUl {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 5rem;
+  padding-left: 30vw;
+}
+.services .servicesUl li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: left;
+  width: 45%;
+  gap: 2rem;
+}
+.services .servicesUl li .servicesText {
+  width: 100%;
+}
+.services .servicesUl li .servicesIcon {
+  border: 2px solid #333;
+  font-size: 2.5rem;
+  border-radius: 50%;
+  width: 60px;
+  height: 50px;
+  padding: 10px;
+  text-align: center;
 }
