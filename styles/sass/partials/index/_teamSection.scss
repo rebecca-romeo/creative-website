@@ -1,5 +1,21 @@
 @use "../variables" as v;
 
+.team {
+  padding: 10rem 0;
+  position: relative;
+  .line2 {
+    width: 0;
+    height: 50px;
+    border-left: 1px solid darkgrey;
+    position: absolute;
+    top: 0px;
+    left: 50%;
+  }
+  h2 {
+    padding-bottom: 6rem;
+  }
+}
+
 .teamUl {
   display: flex;
   justify-content: center;
@@ -19,5 +35,4 @@
     width: 270px;
     height: 270px;
   }
-
 }
