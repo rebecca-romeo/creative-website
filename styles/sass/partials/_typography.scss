@@ -10,7 +10,6 @@ body {
   line-height: 2.4rem;
   text-align: center;
   letter-spacing: 0.03rem;
-  font-weight: 400;
   color: v.$black;
 }
 
@@ -20,8 +19,17 @@ h1 {
   letter-spacing: 0.09rem;
 }
 
+h2 {
+  font-weight: 400;
+}
+
 h3 {
   font-weight: 500;
+}
+
+h4 {
+  font-weight: 400;
+  font-size: 1.5rem;
 }
 
 button {
@@ -33,7 +41,7 @@ p {
   font-family: v.$openSans;
 }
 
-.headerNavContainer, h3 {
+.headerNavContainer, h2, h3, h4 {
   text-transform: uppercase;
 }
 
