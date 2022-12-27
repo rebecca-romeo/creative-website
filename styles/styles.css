@@ -263,18 +263,24 @@ h1 {
 
 h2 {
   font-weight: 400;
+  font-size: 1.8rem;
+  letter-spacing: 0.18rem;
 }
 
 h3 {
-  font-weight: 500;
+  font-weight: 400;
+  font-size: 1.7rem;
+  letter-spacing: 0.17rem;
 }
 
 h4 {
   font-weight: 400;
   font-size: 1.6rem;
+  letter-spacing: 0.16rem;
 }
 
 button {
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   letter-spacing: 0.07rem;
 }
@@ -283,7 +289,7 @@ p {
   font-family: "Open Sans", sans-serif;
 }
 
-.headerNavContainer, h2, h3, h4 {
+.headerNavContainer, h2, h3, h4, button {
   text-transform: uppercase;
 }
 
@@ -506,4 +512,22 @@ header .headerNavContainer ul {
   width: 270px;
   height: 270px;
   padding: 0 5rem;
+}
+
+.portfolio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.portfolio .portfolioTextcontainer {
+  background-color: #C3DAB7;
+  width: 50%;
+}
+.portfolio .portfolioTextcontainer .portfolioButton {
+  background-color: #FFF;
+  border: none;
+  padding: 2rem 3rem;
+}
+.portfolio .portfolioImgContainer {
+  width: 50%;
 }
