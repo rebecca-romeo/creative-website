@@ -1,0 +1,27 @@
+@use "../variables" as v;
+
+footer {
+  color: v.$white;
+  background-color: v.$black;
+  text-align: left;
+  h4 {
+    padding: 4rem;
+    border-top: 1px solid v.$grey;
+    text-align: center;
+  }
+  h3 {
+    padding-bottom: 3rem;
+  }
+  .footerContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 9rem 0;
+    div {
+      width: 30%;
+    }
+    ul {
+      list-style-type: disc;
+    }
+  }
+}
