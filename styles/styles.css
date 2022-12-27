@@ -657,3 +657,20 @@ footer .footerContainer ul {
   color: #333;
   font-weight: 700;
 }
+
+.shareBlog {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 2rem;
+}
+.shareBlog a:hover, .shareBlog a:focus {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  color: #C3DAB7;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}

@@ -42,10 +42,24 @@
   p {
     padding-bottom: 2rem;
   }
-
   .bold, .black {
     color: v.$black;
     font-weight: 700;
   }
 }
 
+
+.shareBlog {
+display: flex;
+align-items: center;
+gap: 2rem;
+a {
+  &:hover,
+  &:focus {
+    transform: scale(1.5);
+    color: v.$sage;
+    transition: 0.6s;
+  }
+
+}
+}
