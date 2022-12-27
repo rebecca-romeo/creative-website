@@ -263,14 +263,14 @@ h1 {
 
 h2 {
   font-weight: 400;
-  font-size: 1.8rem;
-  letter-spacing: 0.18rem;
+  font-size: 1.9rem;
+  letter-spacing: 0.19rem;
 }
 
 h3 {
   font-weight: 400;
-  font-size: 1.7rem;
-  letter-spacing: 0.17rem;
+  font-size: 1.8rem;
+  letter-spacing: 0.18rem;
 }
 
 h4 {
@@ -421,6 +421,7 @@ header .headerNavContainer ul {
   width: 65%;
   margin: 0 auto;
   font-style: italic;
+  color: grey;
 }
 
 .services {
@@ -451,6 +452,9 @@ header .headerNavContainer ul {
 }
 .services .servicesUl li .servicesText {
   width: 100%;
+}
+.services .servicesUl li .servicesText p {
+  color: darkgrey;
 }
 .services .servicesUl li .servicesIcon {
   border: 2px solid #333;
@@ -498,6 +502,7 @@ header .headerNavContainer ul {
 }
 .teamUl .teamTextContent p {
   padding-top: 2rem;
+  color: grey;
 }
 .teamUl .workWithUs {
   display: -webkit-box;
@@ -522,11 +527,37 @@ header .headerNavContainer ul {
 .portfolio .portfolioTextcontainer {
   background-color: #C3DAB7;
   width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.portfolio .portfolioTextcontainer p {
+  color: grey;
+  padding: 5rem 0;
+  width: 75%;
+  margin: 0 auto;
 }
 .portfolio .portfolioTextcontainer .portfolioButton {
   background-color: #FFF;
   border: none;
   padding: 2rem 3rem;
+  width: 30%;
+  margin: 0 auto;
+}
+.portfolio .portfolioTextcontainer .portfolioButton:hover, .portfolio .portfolioTextcontainer .portfolioButton:focus {
+  color: white;
+  background-color: #333;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
 }
 .portfolio .portfolioImgContainer {
   width: 50%;

@@ -7,10 +7,28 @@
   .portfolioTextcontainer {
     background-color: v.$sage;
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    p {
+      color: v.$grey;
+      padding: 5rem 0;
+      width: 75%;
+      margin: 0 auto;
+    }
     .portfolioButton {
       background-color: v.$white;
       border: none;
       padding: 2rem 3rem;
+      width: 30%;
+      margin: 0 auto;
+      &:hover,
+      &:focus {
+        color: white;
+        background-color: v.$black;
+        transform: scale(1.1);
+        transition: 0.7s;
+      } 
     }
   }
   .portfolioImgContainer {

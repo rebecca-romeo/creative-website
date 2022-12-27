@@ -1,3 +1,4 @@
+@use "../variables" as v;
 
 .gallery {
   padding: 10rem 0;
@@ -17,5 +18,6 @@
     width: 65%;
     margin: 0 auto;
     font-style: italic;
+    color: v.$grey;
   }
 } 
