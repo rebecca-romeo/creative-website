@@ -1,0 +1,36 @@
+@use '../variables' as v;
+
+.blogPost {
+  text-align: left;
+  padding: 12rem 0;
+  h2 {
+    font-size: 6rem;
+    font-weight: 700;
+    padding-bottom: 4rem;
+  }
+  .greyFont {
+    color: v.$grey2;
+  }
+  .blogFlexContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 9rem 0 3rem;
+    border-bottom: 1px solid lightgrey;
+    p:nth-child(2) {
+      color: v.$grey2;
+    }
+    .author {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+      img {
+        border-radius: 50%;
+      }
+    }
+    .blogInfo {
+      display: flex;
+      gap: 6rem;
+    }
+  }
+}
+
