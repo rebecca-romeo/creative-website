@@ -1,0 +1,10 @@
+.headerNavContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 5rem;
+  ul {
+    display: flex;
+    gap: 3rem;
+  }
+}
