@@ -259,6 +259,7 @@ h1 {
   font-size: 3.7rem;
   font-weight: 700;
   letter-spacing: 0.09rem;
+  line-height: 5rem;
 }
 
 h2 {
@@ -605,13 +606,15 @@ footer .footerContainer ul {
 }
 .blogPost h2 {
   font-size: 6rem;
+  line-height: 6.5rem;
   font-weight: 700;
-  padding-bottom: 4rem;
+  padding-bottom: 2rem;
 }
 .blogPost .greyFont {
   color: darkgrey;
 }
-.blogPost .blogFlexContainer {
+
+.blogFlexContainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -621,10 +624,10 @@ footer .footerContainer ul {
   padding: 9rem 0 3rem;
   border-bottom: 1px solid lightgrey;
 }
-.blogPost .blogFlexContainer p:nth-child(2) {
+.blogFlexContainer p:nth-child(2) {
   color: darkgrey;
 }
-.blogPost .blogFlexContainer .author {
+.blogFlexContainer .author {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -633,12 +636,24 @@ footer .footerContainer ul {
           align-items: center;
   gap: 2rem;
 }
-.blogPost .blogFlexContainer .author img {
+.blogFlexContainer .author img {
   border-radius: 50%;
 }
-.blogPost .blogFlexContainer .blogInfo {
+.blogFlexContainer .blogInfo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   gap: 6rem;
+}
+
+.blogTextContainer {
+  padding-top: 4rem;
+  color: darkgrey;
+}
+.blogTextContainer p {
+  padding-bottom: 2rem;
+}
+.blogTextContainer .bold, .blogTextContainer .black {
+  color: #333;
+  font-weight: 700;
 }
