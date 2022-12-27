@@ -327,13 +327,7 @@ a {
 @media (max-width: 500px) {
   /* all of our styles for MOBILE devices will go within this breakpoint */
 }
-header {
-  background-image: url("../assets/home-1.jpeg");
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-}
-header .headerNavContainer {
+.headerNavContainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -345,11 +339,18 @@ header .headerNavContainer {
           align-items: center;
   padding-top: 5rem;
 }
-header .headerNavContainer ul {
+.headerNavContainer ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   gap: 3rem;
+}
+
+.indexHeader {
+  background-image: url("../assets/home-1.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
 }
 
 .branding {
@@ -589,4 +590,11 @@ footer .footerContainer div {
 }
 footer .footerContainer ul {
   list-style-type: disc;
+}
+
+.blogHeader {
+  background-image: url("../assets/blog-1.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
 }

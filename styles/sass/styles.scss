@@ -5,11 +5,13 @@
 
 @use "./partials/mediaQs";
 
-
+@use "./partials/headerNav";
 @use "./partials/index/header.scss";
 @use "./partials/index/brandingSection";
 @use "./partials/index/gallerySection";
 @use "./partials/index/servicesSection";
 @use "./partials/index/teamSection";
 @use "./partials/index/portfolioSection";
-@use "./partials/index/footer";
+@use "./partials/footer";
+
+@use "./partials/blog/blogHeader";
