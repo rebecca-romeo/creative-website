@@ -434,9 +434,6 @@ header .headerNavContainer ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   gap: 5rem;
@@ -541,13 +538,13 @@ header .headerNavContainer ul {
 .portfolio .portfolioTextcontainer p {
   color: grey;
   padding: 5rem 0;
-  width: 75%;
+  width: 70%;
   margin: 0 auto;
 }
 .portfolio .portfolioTextcontainer .portfolioButton {
   background-color: #FFF;
   border: none;
-  padding: 2rem 3rem;
+  padding: 2rem 2.5rem;
   width: 30%;
   margin: 0 auto;
 }
