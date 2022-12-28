@@ -332,6 +332,31 @@ a {
   color: inherit;
 }
 
+.signUp {
+  position: relative;
+}
+.signUp input {
+  margin-top: 2.5rem;
+  padding: 1.4rem;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.5px;
+  width: 60%;
+}
+.signUp .rightArrow {
+  color: #333;
+  background-color: #C3DAB7;
+  padding: 1.5rem;
+  border: none;
+  margin-left: -5px;
+}
+.signUp .rightArrow:hover, .signUp .rightArrow:focus {
+  color: #F6F6F6;
+  background-color: rgb(45, 143, 45);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
 @media (max-width: 1000px) {
   /* all of our styles for smaller DESKTOP devices will go within this breakpoint */
 }
@@ -615,6 +640,7 @@ footer .footerContainer ul {
   font-weight: 700;
   border-bottom: 1px solid lightgray;
   padding-bottom: 2rem;
+  margin-bottom: 4rem;
 }
 
 .blogPost {
@@ -702,7 +728,7 @@ footer .footerContainer ul {
       -ms-flex-pack: justify;
           justify-content: space-between;
   gap: 2rem;
-  padding: 5rem 0 10rem;
+  padding: 0 0 10rem;
 }
 .relatedPosts .blogImagesContainer h4 {
   padding-top: 2rem;
@@ -733,13 +759,13 @@ footer .footerContainer ul {
 }
 
 .commentsContainer {
-  padding: 3rem 0 8rem;
+  padding: 0 0 8rem;
 }
 .commentsContainer article {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-top: 3rem;
+  padding-bottom: 3rem;
   gap: 3.5rem;
 }
 .commentsContainer article img {
