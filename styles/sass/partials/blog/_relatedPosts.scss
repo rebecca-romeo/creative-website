@@ -1,0 +1,29 @@
+@use '../variables' as v;
+
+.relatedPosts {
+  text-align: left;
+  h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 2rem;
+  }
+  .blogImagesContainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 5rem 0 7rem;
+    p {
+      text-transform: uppercase;
+      padding-top: 2rem;
+    }
+    a {
+      &:hover,
+      &:focus {
+        transform: scale(1.08);
+        color: green;
+        transition: 0.6s;
+      }
+    }
+  }
+}
