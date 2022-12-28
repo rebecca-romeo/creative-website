@@ -436,7 +436,6 @@ a {
   width: 65%;
   margin: 0 auto;
   font-style: italic;
-  color: grey;
 }
 
 .services {
@@ -514,7 +513,6 @@ a {
 }
 .teamUl .teamTextContent p {
   padding-top: 2rem;
-  color: grey;
 }
 .teamUl .workWithUs {
   display: -webkit-box;
@@ -551,7 +549,6 @@ a {
           justify-content: center;
 }
 .portfolio .portfolioTextcontainer p {
-  color: grey;
   padding: 5rem 0;
   width: 70%;
   margin: 0 auto;
