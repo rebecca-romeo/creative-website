@@ -1,0 +1,40 @@
+@use '../variables' as v;
+
+.commentSection {
+  text-align: left;
+  padding-bottom: 5rem;
+  p {
+    font-family: v.$montserrat;
+    padding: 0.5rem 0;
+  }
+  .reply {
+    font-style: italic;
+    &:hover, 
+    &:focus {
+      color: green;
+      transition: 0.6s;
+    }
+  }
+}
+
+.commentsContainer {
+  padding: 3rem 0 8rem;
+  
+  article {
+    display: flex;
+    padding-top: 3rem;
+    gap: 3.5rem;
+    img {
+      width: 70px;
+      height: 70px;
+    }
+    div {
+      background-color: v.$white2;
+      width: 100%;
+      padding: 1rem 2.5rem 3rem;
+    }
+    .smallDate {
+      font-size: 1.2rem;
+    }
+  }
+}

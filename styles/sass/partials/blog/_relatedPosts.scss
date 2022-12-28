@@ -2,19 +2,12 @@
 
 .relatedPosts {
   text-align: left;
-  h2 {
-    font-size: 3rem;
-    font-weight: 700;
-    border-bottom: 1px solid lightgray;
-    padding-bottom: 2rem;
-  }
   .blogImagesContainer {
     display: flex;
     justify-content: space-between;
     gap: 2rem;
-    padding: 5rem 0 7rem;
-    p {
-      text-transform: uppercase;
+    padding: 5rem 0 10rem;
+    h4 {
       padding-top: 2rem;
     }
     a {

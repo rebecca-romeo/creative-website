@@ -294,6 +294,19 @@ p {
   text-transform: uppercase;
 }
 
+.bold {
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.grey {
+  color: grey;
+}
+
+.lightGrey {
+  color: darkgrey;
+}
+
 .wrapper {
   width: 90%;
   margin: 0 auto;
@@ -600,6 +613,13 @@ footer .footerContainer ul {
   height: 100vh;
 }
 
+.blogH2 {
+  font-size: 3rem;
+  font-weight: 700;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 2rem;
+}
+
 .blogPost {
   text-align: left;
   padding: 12rem 0;
@@ -609,9 +629,6 @@ footer .footerContainer ul {
   line-height: 6.5rem;
   font-weight: 700;
   padding-bottom: 2rem;
-}
-.blogPost .greyFont {
-  color: darkgrey;
 }
 
 .blogFlexContainer {
@@ -651,7 +668,6 @@ footer .footerContainer ul {
 
 .blogTextContainer {
   padding-top: 4rem;
-  color: darkgrey;
 }
 .blogTextContainer p {
   padding-bottom: 2rem;
@@ -681,12 +697,6 @@ footer .footerContainer ul {
 .relatedPosts {
   text-align: left;
 }
-.relatedPosts h2 {
-  font-size: 3rem;
-  font-weight: 700;
-  border-bottom: 1px solid lightgray;
-  padding-bottom: 2rem;
-}
 .relatedPosts .blogImagesContainer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -695,10 +705,9 @@ footer .footerContainer ul {
       -ms-flex-pack: justify;
           justify-content: space-between;
   gap: 2rem;
-  padding: 5rem 0 7rem;
+  padding: 5rem 0 10rem;
 }
-.relatedPosts .blogImagesContainer p {
-  text-transform: uppercase;
+.relatedPosts .blogImagesContainer h4 {
   padding-top: 2rem;
 }
 .relatedPosts .blogImagesContainer a:hover, .relatedPosts .blogImagesContainer a:focus {
@@ -707,4 +716,44 @@ footer .footerContainer ul {
   color: green;
   -webkit-transition: 0.6s;
   transition: 0.6s;
+}
+
+.commentSection {
+  text-align: left;
+  padding-bottom: 5rem;
+}
+.commentSection p {
+  font-family: "Montserrat", sans-serif;
+  padding: 0.5rem 0;
+}
+.commentSection .reply {
+  font-style: italic;
+}
+.commentSection .reply:hover, .commentSection .reply:focus {
+  color: green;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.commentsContainer {
+  padding: 3rem 0 8rem;
+}
+.commentsContainer article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 3rem;
+  gap: 3.5rem;
+}
+.commentsContainer article img {
+  width: 70px;
+  height: 70px;
+}
+.commentsContainer article div {
+  background-color: #F6F6F6;
+  width: 100%;
+  padding: 1rem 2.5rem 3rem;
+}
+.commentsContainer article .smallDate {
+  font-size: 1.2rem;
 }
