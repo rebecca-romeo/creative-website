@@ -307,6 +307,10 @@ p {
   color: darkgrey;
 }
 
+.contactMainSection {
+  text-align: left;
+}
+
 .wrapper {
   width: 90%;
   margin: 0 auto;
@@ -448,7 +452,7 @@ textarea::placeholder {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-top: 5rem;
+  padding: 3.5rem 0;
 }
 .headerNavContainer ul {
   display: -webkit-box;
