@@ -341,14 +341,14 @@ a {
   border: none;
   font-family: "Montserrat", sans-serif;
   letter-spacing: 0.5px;
-  width: 60%;
+  width: 70%;
 }
 .signUp .rightArrow {
   color: #333;
   background-color: #C3DAB7;
   padding: 1.5rem;
   border: none;
-  margin-left: -5px;
+  margin-left: -48px;
 }
 .signUp .rightArrow:hover, .signUp .rightArrow:focus {
   color: #F6F6F6;
@@ -614,9 +614,9 @@ footer .footerContainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   padding: 9rem 0;
@@ -626,6 +626,15 @@ footer .footerContainer div {
 }
 footer .footerContainer ul {
   list-style-type: disc;
+}
+footer .footerContainer li {
+  line-height: 3.2rem;
+}
+footer .footerContainer li:hover, footer .footerContainer li:focus {
+  color: #C3DAB7;
+}
+footer .footerContainer address {
+  font-style: normal;
 }
 
 .blogHeader {
