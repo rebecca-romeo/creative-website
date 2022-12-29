@@ -359,7 +359,7 @@ a {
 
 .submitCommentForm {
   text-align: left;
-  padding: 2rem 0 10rem;
+  padding: 2rem 0 5rem;
 }
 .submitCommentForm textarea {
   resize: none;
@@ -824,7 +824,7 @@ footer .footerContainer address {
 
 .commentSection, .leaveComment {
   text-align: left;
-  padding-bottom: 5rem;
+  padding-bottom: 8rem;
 }
 .commentSection p, .leaveComment p {
   font-family: "Montserrat", sans-serif;
@@ -839,9 +839,6 @@ footer .footerContainer address {
   transition: 0.6s;
 }
 
-.commentsContainer {
-  padding: 0 0 8rem;
-}
 .commentsContainer article {
   display: -webkit-box;
   display: -ms-flexbox;
