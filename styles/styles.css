@@ -357,6 +357,78 @@ a {
   transition: 0.5s;
 }
 
+.submitCommentForm {
+  text-align: left;
+  padding: 2rem 0 10rem;
+}
+.submitCommentForm textarea {
+  resize: none;
+  display: block;
+  font-family: "Open Sans", sans-serif;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid lightgrey;
+  margin: 3rem 0 5rem;
+  padding-top: 1.5rem;
+}
+.submitCommentForm .userInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 3rem;
+}
+.submitCommentForm .userInfo input {
+  border: none;
+  border-bottom: 1px solid lightgrey;
+  font-family: "Open Sans", sans-serif;
+  width: 33.3333333333%;
+  padding: 1rem 0;
+}
+.submitCommentForm .userInfo .formEmail {
+  border-bottom: 1px solid #333;
+}
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  opacity: 1;
+}
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+  opacity: 1;
+}
+
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+  opacity: 1;
+}
+
+input::-ms-input-placeholder, textarea::-ms-input-placeholder {
+  opacity: 1;
+}
+
+input::placeholder,
+textarea::placeholder {
+  opacity: 1;
+}
+
+.formSubmitButton {
+  font-weight: 400;
+  padding-bottom: 0.5rem;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #333;
+}
+.formSubmitButton:hover {
+  background-color: #333;
+  color: #F6F6F6;
+  padding: 0.5rem 1rem;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
 @media (max-width: 1000px) {
   /* all of our styles for smaller DESKTOP devices will go within this breakpoint */
 }
@@ -750,18 +822,18 @@ footer .footerContainer address {
   transition: 0.6s;
 }
 
-.commentSection {
+.commentSection, .leaveComment {
   text-align: left;
   padding-bottom: 5rem;
 }
-.commentSection p {
+.commentSection p, .leaveComment p {
   font-family: "Montserrat", sans-serif;
   padding: 0.5rem 0;
 }
-.commentSection .reply {
+.commentSection .reply, .leaveComment .reply {
   font-style: italic;
 }
-.commentSection .reply:hover, .commentSection .reply:focus {
+.commentSection .reply:hover, .commentSection .reply:focus, .leaveComment .reply:hover, .leaveComment .reply:focus {
   color: green;
   -webkit-transition: 0.6s;
   transition: 0.6s;

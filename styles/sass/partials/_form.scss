@@ -28,3 +28,53 @@
   }
   
 }
+
+.submitCommentForm {
+  text-align: left;
+  padding: 2rem 0 10rem;
+  textarea {
+    resize: none;
+    display: block;
+    font-family: v.$openSans;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid lightgrey;
+    margin: 3rem 0 5rem;
+    padding-top: 1.5rem;
+  }
+  .userInfo {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    input {
+      border: none;
+      border-bottom: 1px solid lightgrey;
+      font-family: v.$openSans;
+      width: calc(100% / 3);
+      padding: 1rem 0;
+    }
+    .formEmail {
+      border-bottom: 1px solid v.$black;
+    }
+  }
+}
+
+input::placeholder,
+textarea::placeholder {
+  opacity: 1;
+}
+
+.formSubmitButton {
+  font-weight: 400;
+  padding-bottom: 0.5rem;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid v.$black;
+  &:hover {
+    background-color: v.$black;
+    color: v.$white2;
+    padding: 0.5rem 1rem;
+    transform: scale(1.1);
+    transition: 0.5s;
+  }
+}

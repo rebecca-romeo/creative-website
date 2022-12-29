@@ -161,8 +161,26 @@
     <section class="leaveComment wrapper">
       <h2 class="blogH2">Leave a Comment</h2>
 
-      <form action="">
+      <form action="#" method="#" class="submitCommentForm" name="submitCommentForm">
 
+        <div class="userInfo">
+
+          <label for="usersName" class="sr-only">Enter your name</label>
+          <input type="text" id="usersName" name="usersName" class="lightGrey" placeholder="Enter your name..." required>
+  
+          <label for="userEmail" class="sr-only">Enter your email address</label>
+          <input type="email" id="userEmail" name="emailAddress" class="formEmail" placeholder="youremail@domain.ca" required>
+  
+          <label for="subject" class="sr-only">Subject (Optional)</label>
+          <input type="text" id="subject" name="subject" class="lightGrey" placeholder="Subject (Optional)">
+        </div>
+
+      
+
+        <label for="writeComment" class="sr-only">Write your comment here</label>
+        <textarea id="writeComment" name="comment" class="lightGrey" cols="40" rows="10" min="20" placeholder="Here goes your comment" required></textarea>
+
+        <button type="submit" class="formSubmitButton"> Submit comment</button>
       </form>
 
     </section>
