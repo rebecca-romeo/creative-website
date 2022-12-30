@@ -25,14 +25,15 @@ footer {
     }
     li {
       line-height: 3.2rem;
-      &:hover,
-      &:focus {
-        color: v.$sage;
-        // transition: 0.4s;
-      }
     }
     address {
       font-style: normal;
+    }
+    li:hover, 
+    li:focus,
+    a:hover, 
+    a:focus {
+        color: v.$sage;
     }
   }
 }
