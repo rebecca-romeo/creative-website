@@ -460,6 +460,18 @@ textarea::placeholder {
   display: flex;
   gap: 3rem;
 }
+.headerNavContainer i {
+  font-size: 2.1rem;
+}
+.headerNavContainer .green {
+  background-color: #C3DAB7;
+  padding: 0.2rem 0.5rem;
+  border-radius: 50%;
+  font-size: 1rem;
+  position: relative;
+  right: 10px;
+  top: 5px;
+}
 
 .indexHeader {
   background-image: url("../assets/home-1.jpeg");

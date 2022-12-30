@@ -1,3 +1,5 @@
+@use './variables' as v;
+
 .headerNavContainer {
   display: flex;
   justify-content: space-between;
@@ -6,5 +8,17 @@
   ul {
     display: flex;
     gap: 3rem;
+  }
+  i {
+    font-size: 2.1rem;
+  }
+  .green {
+    background-color: v.$sage;
+    padding: 0.2rem 0.5rem;
+    border-radius: 50%;
+    font-size: 1rem;
+    position: relative;
+    right: 10px;
+    top:  5px;
   }
 }
