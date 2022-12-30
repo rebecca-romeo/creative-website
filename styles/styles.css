@@ -270,8 +270,8 @@ h2 {
 
 h3 {
   font-weight: 400;
-  font-size: 1.9rem;
-  letter-spacing: 0.19rem;
+  font-size: 1.8rem;
+  letter-spacing: 0.18rem;
 }
 
 h4 {
@@ -556,38 +556,51 @@ textarea::placeholder {
   background-position: center;
   background-size: cover;
   height: 100vh;
+  text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
-.services .servicesUl {
+.services p {
+  color: darkgrey;
+}
+.services .servicesIcon {
+  border: 2px solid #333;
+  font-size: 2.5rem;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  padding: 15px;
+  text-align: center;
+}
+.services .locationIcon {
+  padding: 18px;
+}
+
+.servicesUl {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  gap: 5rem;
-  padding-left: 30vw;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  position: relative;
+  left: 10vw;
+  gap: 4rem 1rem;
+  width: 70%;
 }
-.services .servicesUl li {
+.servicesUl li {
+  width: 35%;
+  padding: 3rem 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  text-align: left;
-  width: 45%;
   gap: 2rem;
-}
-.services .servicesUl li .servicesText {
-  width: 100%;
-}
-.services .servicesUl li .servicesText p {
-  color: darkgrey;
-}
-.services .servicesUl li .servicesIcon {
-  border: 2px solid #333;
-  font-size: 2.5rem;
-  border-radius: 50%;
-  width: 60px;
-  height: 50px;
-  padding: 10px;
-  text-align: center;
 }
 
 .team {
