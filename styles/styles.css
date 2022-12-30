@@ -264,14 +264,14 @@ h1 {
 
 h2 {
   font-weight: 400;
-  font-size: 2rem;
-  letter-spacing: 0.2rem;
+  font-size: 2.1rem;
+  letter-spacing: 0.21rem;
 }
 
 h3 {
   font-weight: 400;
-  font-size: 1.8rem;
-  letter-spacing: 0.18rem;
+  font-size: 1.9rem;
+  letter-spacing: 0.19rem;
 }
 
 h4 {
@@ -866,9 +866,23 @@ footer .footerContainer a:focus {
   font-size: 1.2rem;
 }
 
-.contactMainSection h2 {
+.contactMainSection h3 {
   font-weight: 500;
   padding-bottom: 2rem;
+}
+.contactMainSection .contactUs {
+  background-image: url(../assets/contact-1.jpeg);
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 3rem 0;
+}
+.contactMainSection .contactH2 {
+  font-size: 5rem;
+  line-height: 5rem;
+  font-weight: 700;
+  position: relative;
+  top: 7.2rem;
 }
 
 .contactDetails {
@@ -890,6 +904,7 @@ footer .footerContainer a:focus {
 .contactDetails .contactOptions address h4 {
   font-weight: 500;
   color: #333;
+  letter-spacing: 0.6rem;
 }
 .contactDetails .contactOptions .location {
   border-left: 1px solid lightgray;

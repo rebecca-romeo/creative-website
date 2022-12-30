@@ -1,9 +1,25 @@
 @use '../variables' as v;
 
 .contactMainSection {
-  h2 {
+  h3 {
     font-weight: 500;
     padding-bottom: 2rem;
+  }
+  .contactUs {
+    // position: relative;
+    // height: 225px;
+    background-image: url(../assets/contact-1.jpeg);
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 3rem 0;
+  }
+  .contactH2 {
+    font-size: 5rem;
+    line-height: 5rem;
+    font-weight: 700;
+    position: relative;
+    top: 7.2rem;
   }
 }
 
@@ -24,6 +40,7 @@
       h4 {
         font-weight: 500;
         color: v.$black;
+        letter-spacing: 0.6rem;
       }
     }
     .location {
