@@ -1,0 +1,47 @@
+@use '../variables' as v;
+
+.contactMainSection {
+  h2 {
+    font-weight: 500;
+    padding-bottom: 2rem;
+  }
+}
+
+
+
+
+.contactDetails {
+  padding: 15rem 0 0;
+  .contactOptions {
+    display: flex;
+    padding: 4rem 0rem 6rem 6rem;
+    gap: 8rem;
+    address {
+      padding: 3rem 0;
+      font-style: normal;
+      line-height: 3rem;
+      color: v.$grey;
+      h4 {
+        font-weight: 500;
+        color: v.$black;
+      }
+    }
+    .location {
+      border-left: 1px solid lightgray;
+      border-right: 1px solid lightgray;
+      padding: 3rem 5rem;
+    }
+    i {
+      font-size: 3.5rem;
+      padding-bottom: 1.5rem;
+      color: v.$black;
+    }
+    a:hover,
+    a:focus {
+      background-color: v.$sage;
+      color: v.$black;
+      padding: 0.3rem 0;
+      transition: 0.4s;
+    }
+  }
+}
