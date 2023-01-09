@@ -6,7 +6,6 @@
   background-size: cover;
   height: 100vh;
   text-align: left;
-  // border: 1px solid red;
   display: flex;
   align-items: center;
   p {
@@ -27,7 +26,6 @@
 }
 
 .servicesUl {
-  // border: 1px solid blue;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
@@ -40,6 +38,5 @@
     padding: 3rem 0;
     display: flex;
     gap: 2rem;
-    // border: 1px solid  green;
   }
 }

@@ -1,13 +1,90 @@
-@use "./variables";
+@use "./variables" as v;
 
-@media (max-width: 1000px) {
-  /* all of our styles for smaller DESKTOP devices will go within this breakpoint */
+@media (max-width: 1195px) {
+  .brandingImgContainer .circleText {
+    left: 20%;
+  }
+}
+
+@media (max-width: 1095px) {
+  .servicesUl {
+    gap: 0;
+    li {
+      width: 40%;
+      padding: 3rem 1rem 0 0;
+    }
+  }
+}
+
+@media (max-width: 980px) {
+  .brandingImgContainer .circleText {
+    left: 15%;
+  }
+  .servicesUl li {
+    width: 45%;
+  }
+}
+
+@media (max-width: 840px) {
+  .brandingImgContainer .circleText {
+    left: 10%;
+  }
+
+  .services {
+    height: 85vh;
+    p {
+      color: rgb(105, 104, 104);
+    }
+  }
+  .servicesUl {
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 90%;
+    position: static;
+    justify-content: center;
+    padding-bottom: 2rem;
+  }
 }
 
 @media (max-width: 800px) {
-  /* all of our styles for TABLET devices will go within this breakpoint */
+  .headerNavContainer {
+    i {
+      font-size: 1.9rem;
+    }
+    ul {
+      gap: 1.8rem;
+      font-size: 1.3rem;
+    }
+  }
+
+  .brandingTextContainer {
+    gap: 5rem;
+    padding-top: 5rem;
+    .brandingText {
+      width: 40%;
+    }
+  }
+
+  .portfolio {
+    .portfolioTextcontainer .portfolioButton {
+      padding: 1.5rem;
+    }
+    .portfolioTextcontainer p {
+      padding: 3rem 0;
+    }
+  }
+
+
+
 }
 
-@media (max-width: 500px) {
-  /* all of our styles for MOBILE devices will go within this breakpoint */
+@media (max-width: 715px) {
+  .brandingImgContainer .circleText {
+    left: 5%;
+  }
+}
+
+@media (max-width: 615px) {
+  .brandingImgContainer .circleText {
+    left: 0%;
+  }
 }

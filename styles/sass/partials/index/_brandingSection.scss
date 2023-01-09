@@ -1,9 +1,9 @@
 @use "../variables" as v;
 
-.branding {
-  background-color: v.$sage;
-  padding: 15rem 0 8rem;
-}
+  .branding {
+    background-color: v.$sage;
+    padding: 15rem 0 8rem;
+  }
   .line {
     width: 0;
     height: 12rem;
@@ -18,9 +18,9 @@
     position: relative;
     .circleText {
       position: absolute;
-      width: 15%;
-      bottom: 150px;
-      left: 300px;
+      width: 150px;
+      top: -10vh;
+      left: 25%;
     }
   }
   .brandingTextContainer {
