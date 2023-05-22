@@ -1,0 +1,116 @@
+@use "../variables" as v;
+
+@media (max-width: 715px) {
+  .wrapper {
+    width: 95%;
+  }
+
+  body {
+    line-height: 2rem;
+    font-size: 1.2rem;
+
+    h2 {
+      font-size: 1.8rem;
+    }
+
+    h3 {
+      font-size: 1.5rem;
+    }
+
+    h3 {
+      font-size: 1.5rem;
+    }
+  }
+
+  .branding {
+    padding: 12rem 0 7rem;
+  }
+
+  .gallery {
+    padding: 8rem 0;
+  }
+}
+
+.portfolio {
+  .portfolioTextcontainer {
+    width: 55%;
+
+    p {
+      padding: 4rem 0;
+      width: 85%;
+    }
+
+    .portfolioButton {
+      width: 180px;
+      font-size: 1.1rem;
+    }
+  }
+
+
+  .brandingImgContainer .circleText {
+    left: 5%;
+  }
+
+
+  .services {
+    height: 75vh;
+
+    .servicesUl {
+      justify-content: space-evenly;
+      padding-bottom: 0rem;
+
+      li {
+        padding: 2rem 1rem;
+      }
+    }
+  }
+
+
+  .portfolio,
+  .portfolio img {
+    height: 55vh;
+  }
+
+  .services .servicesIcon {
+    font-size: 1.2rem;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding: 12px;
+  }
+
+  footer {
+    h4 {
+      padding: 3rem;
+    }
+
+    .footerContainer {
+      padding: 4rem 0;
+
+      div {
+        padding: 2rem;
+      }
+
+      h3 {
+        padding-bottom: 0.9rem;
+      }
+
+    }
+  }
+
+  .team {
+    padding: 8rem 0 6rem;
+
+    h2 {
+      padding-bottom: 4rem;
+    }
+  }
+
+  .teamUl {
+    .teamTextContent {
+      height: 200px;
+      padding: 70px 4rem 4rem;
+    }
+  }
+
+}

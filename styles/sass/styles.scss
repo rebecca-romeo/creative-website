@@ -3,15 +3,14 @@
 @use "./partials/typography";
 @use "./partials/global";
 @use "./partials/form";
-
 @use "./partials/headerNav";
+
 @use "./partials/index/header.scss";
 @use "./partials/index/brandingSection";
 @use "./partials/index/gallerySection";
 @use "./partials/index/servicesSection";
 @use "./partials/index/teamSection";
 @use "./partials/index/portfolioSection";
-@use "./partials/footer";
 
 @use "./partials/blog/blogHeader";
 @use "./partials/blog/blogArticle";
@@ -19,5 +18,8 @@
 @use "./partials/blog/comments";
 
 @use "./partials/contact/contactDetails";
+
+@use "./partials/footer";
+
 
 @use "./partials/mediaQs";

@@ -1,0 +1,124 @@
+@use "../variables" as v;
+
+@media (max-width: 485px) {
+  .branding {
+    padding: 12rem 2rem 5rem;
+  }
+
+  .brandingTextContainer {
+    flex-direction: column;
+    gap: 2.5rem;
+    padding-top: 3rem;
+
+    .brandingText {
+      width: 90%;
+
+      h3 {
+        padding-bottom: 1rem;
+      }
+    }
+  }
+
+  .team {
+    padding: 8rem 0 6rem;
+
+    h2 {
+      padding-bottom: 3rem;
+    }
+
+    .teamUl {
+      gap: 1rem;
+
+      .teamTextContent {
+        height: 200px;
+        padding: 40px 4rem 4rem;
+      }
+
+      .workWithUs {
+        padding: 0 3rem;
+
+        h4 {
+          font-size: 1.3rem;
+        }
+      }
+    }
+  }
+
+  .portfolio {
+    .portfolioTextcontainer {
+      padding: 4.5rem 0;
+      p {
+        padding: 2rem 0;
+      }
+      .portfolioButton {
+        padding: 1.5rem 2rem;
+        width: 160px;
+        font-size: 1rem;
+      }
+    }
+  }
+}
+
+
+
+@media (max-width: 415px) {
+  .brandingImgContainer .circleText {
+    width: 120px;
+    top: -7vh;
+  }
+
+  .brandingTextContainer .brandingText {
+    h3 {
+      padding-bottom: 0.2rem;
+    }
+
+    p {
+      font-size: 1.1rem;
+    }
+  }
+
+  .services {
+    p {
+      font-size: 1.1rem;
+    }
+
+    .servicesUl {
+      li {
+        gap: 1rem;
+        padding: 0rem 0;
+        padding: 1rem 0rem;
+      }
+    }
+
+    .servicesIcon {
+      font-size: 1rem;
+      width: 30px;
+      height: 30px;
+      padding: 8px;
+    }
+  }
+
+  .gallery {
+    .galleryP {
+      width: 90%;
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  footer .footerContainer div {
+    width: 80%;
+  }
+
+  .services {
+    height: 65rem;
+
+    .servicesUl {
+      padding: 2rem 1rem;
+    }
+  }
+
+  .gallery {
+    padding: 6rem 0;
+  }
+}

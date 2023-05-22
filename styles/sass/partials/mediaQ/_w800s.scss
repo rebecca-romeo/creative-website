@@ -1,0 +1,89 @@
+@use "../variables" as v;
+
+@media (max-width: 840px) {
+  .brandingImgContainer .circleText {
+    left: 10%;
+  }
+
+  .services {
+    height: 85vh;
+
+    p {
+      color: rgb(105, 104, 104);
+    }
+  }
+
+  .servicesUl {
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 90%;
+    position: static;
+    justify-content: center;
+    padding-bottom: 2rem;
+  }
+}
+
+
+@media (max-width: 800px) {
+  .headerNavContainer {
+    i {
+      font-size: 1.9rem;
+    }
+
+    ul {
+      gap: 1.8rem;
+      font-size: 1.3rem;
+    }
+  }
+
+  .brandingTextContainer {
+    gap: 5rem;
+    padding-top: 5rem;
+
+    .brandingText {
+      width: 40%;
+    }
+  }
+
+  .portfolio {
+    .portfolioTextcontainer .portfolioButton {
+      padding: 1.5rem;
+    }
+
+    .portfolioTextcontainer p {
+      padding: 3rem 0;
+    }
+  }
+
+  footer {
+    h3 {
+      font-size: 1.5rem;
+    }
+
+    h4 {
+      padding: 2rem 0;
+      font-size: 1.3rem;
+    }
+
+    .footerContainer {
+      padding: 3.5rem 0;
+      font-size: 1rem;
+
+      div {
+        width: 33%;
+      }
+
+      .signUp {
+        input {
+          padding: 1rem;
+          width: 90%;
+          margin-top: 1rem;
+        }
+
+        .rightArrow {
+          padding: 1.1rem 1rem;
+          margin-left: -3.3rem;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+@use "../variables" as v;
+
+@media (max-width: 1195px) {
+  .brandingImgContainer .circleText {
+    left: 20%;
+  }
+}
+
+@media (max-width: 1095px) {
+  .servicesUl {
+    gap: 0;
+    li {
+      width: 40%;
+      padding: 3rem 1rem 0 0;
+    }
+  }
+}
+
+@media (max-width: 1050px) {
+
+  h3 {
+    padding-bottom: 1.5rem;
+  }
+
+  footer {
+    font-size: 1.2rem;
+    .footerContainer {
+      padding: 4rem 0;
+      h3 {
+        padding-bottom: 0rem;
+      }
+
+      li {
+        line-height: 2.4rem;
+      }
+
+      div {
+        padding: 1.5rem 0;
+      }
+
+      .signUp {
+        .rightArrow {
+          margin-left: -45px;
+        }
+      }
+    }
+  }
+}

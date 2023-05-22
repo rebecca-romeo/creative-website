@@ -1,0 +1,10 @@
+@use "../variables" as v;
+
+@media (max-width: 980px) {
+  .brandingImgContainer .circleText {
+    left: 15%;
+  }
+  .servicesUl li {
+    width: 45%;
+  }
+}

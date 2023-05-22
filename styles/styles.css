@@ -336,31 +336,6 @@ a {
   color: inherit;
 }
 
-.signUp {
-  position: relative;
-}
-.signUp input {
-  margin-top: 2.5rem;
-  padding: 1.4rem;
-  border: none;
-  font-family: "Montserrat", sans-serif;
-  letter-spacing: 0.5px;
-  width: 70%;
-}
-.signUp .rightArrow {
-  color: #333;
-  background-color: #C3DAB7;
-  padding: 1.5rem;
-  border: none;
-  margin-left: -48px;
-}
-.signUp .rightArrow:hover, .signUp .rightArrow:focus {
-  color: #F6F6F6;
-  background-color: rgb(45, 143, 45);
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-}
-
 .submitCommentForm {
   text-align: left;
   padding: 2rem 0 5rem;
@@ -531,7 +506,6 @@ textarea::placeholder {
 }
 .gallery .galleryImgContainer .galleryImg {
   border-radius: 50%;
-  padding-bottom: 3.5rem;
 }
 .gallery .galleryImgContainer .arrow {
   font-size: 3rem;
@@ -540,6 +514,7 @@ textarea::placeholder {
   width: 65%;
   margin: 0 auto;
   font-style: italic;
+  padding-top: 3.5rem;
 }
 
 .services {
@@ -687,49 +662,6 @@ textarea::placeholder {
 }
 .portfolio .portfolioImgContainer {
   width: 50%;
-}
-
-footer {
-  color: #FFF;
-  background-color: #333;
-  text-align: left;
-}
-footer h4 {
-  padding: 4rem;
-  border-top: 1px solid grey;
-  text-align: center;
-}
-footer h3 {
-  padding-bottom: 3rem;
-}
-footer .footerContainer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  padding: 9rem 0;
-}
-footer .footerContainer div {
-  width: 30%;
-}
-footer .footerContainer ul {
-  list-style-type: disc;
-}
-footer .footerContainer li {
-  line-height: 3.2rem;
-}
-footer .footerContainer address {
-  font-style: normal;
-}
-footer .footerContainer li:hover,
-footer .footerContainer li:focus,
-footer .footerContainer a:hover,
-footer .footerContainer a:focus {
-  color: #C3DAB7;
 }
 
 .blogHeader {
@@ -941,6 +873,74 @@ footer .footerContainer a:focus {
   transition: 0.4s;
 }
 
+footer {
+  color: #FFF;
+  background-color: #333;
+  text-align: left;
+}
+footer h4 {
+  padding: 4rem;
+  border-top: 1px solid grey;
+  text-align: center;
+}
+footer h3 {
+  padding-bottom: 3rem;
+}
+footer .footerContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 9rem 0;
+}
+footer .footerContainer div {
+  width: 30%;
+}
+footer .footerContainer ul {
+  list-style-type: disc;
+}
+footer .footerContainer li {
+  line-height: 3.2rem;
+}
+footer .footerContainer address {
+  font-style: normal;
+}
+footer .footerContainer li:hover,
+footer .footerContainer li:focus,
+footer .footerContainer a:hover,
+footer .footerContainer a:focus {
+  color: #C3DAB7;
+}
+
+.signUp {
+  position: relative;
+}
+.signUp input {
+  margin-top: 2.5rem;
+  padding: 1.4rem;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.5px;
+  width: 90%;
+}
+.signUp .rightArrow {
+  color: #333;
+  background-color: #C3DAB7;
+  padding: 1.5rem;
+  border: none;
+  margin-left: -48px;
+}
+.signUp .rightArrow:hover, .signUp .rightArrow:focus {
+  color: #F6F6F6;
+  background-color: rgb(45, 143, 45);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
 @media (max-width: 1195px) {
   .brandingImgContainer .circleText {
     left: 20%;
@@ -953,6 +953,29 @@ footer .footerContainer a:focus {
   .servicesUl li {
     width: 40%;
     padding: 3rem 1rem 0 0;
+  }
+}
+@media (max-width: 1050px) {
+  h3 {
+    padding-bottom: 1.5rem;
+  }
+  footer {
+    font-size: 1.2rem;
+  }
+  footer .footerContainer {
+    padding: 4rem 0;
+  }
+  footer .footerContainer h3 {
+    padding-bottom: 0rem;
+  }
+  footer .footerContainer li {
+    line-height: 2.4rem;
+  }
+  footer .footerContainer div {
+    padding: 1.5rem 0;
+  }
+  footer .footerContainer .signUp .rightArrow {
+    margin-left: -45px;
   }
 }
 @media (max-width: 980px) {
@@ -1004,14 +1027,323 @@ footer .footerContainer a:focus {
   .portfolio .portfolioTextcontainer p {
     padding: 3rem 0;
   }
+  footer h3 {
+    font-size: 1.5rem;
+  }
+  footer h4 {
+    padding: 2rem 0;
+    font-size: 1.3rem;
+  }
+  footer .footerContainer {
+    padding: 3.5rem 0;
+    font-size: 1rem;
+  }
+  footer .footerContainer div {
+    width: 33%;
+  }
+  footer .footerContainer .signUp input {
+    padding: 1rem;
+    width: 90%;
+    margin-top: 1rem;
+  }
+  footer .footerContainer .signUp .rightArrow {
+    padding: 1.1rem 1rem;
+    margin-left: -3.3rem;
+  }
 }
 @media (max-width: 715px) {
-  .brandingImgContainer .circleText {
-    left: 5%;
+  .wrapper {
+    width: 95%;
+  }
+  body {
+    line-height: 2rem;
+    font-size: 1.2rem;
+  }
+  body h2 {
+    font-size: 1.8rem;
+  }
+  body h3 {
+    font-size: 1.5rem;
+  }
+  body h3 {
+    font-size: 1.5rem;
+  }
+  .branding {
+    padding: 12rem 0 7rem;
+  }
+  .gallery {
+    padding: 8rem 0;
+  }
+}
+.portfolio .portfolioTextcontainer {
+  width: 55%;
+}
+.portfolio .portfolioTextcontainer p {
+  padding: 4rem 0;
+  width: 85%;
+}
+.portfolio .portfolioTextcontainer .portfolioButton {
+  width: 180px;
+  font-size: 1.1rem;
+}
+.portfolio .brandingImgContainer .circleText {
+  left: 5%;
+}
+.portfolio .services {
+  height: 75vh;
+}
+.portfolio .services .servicesUl {
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding-bottom: 0rem;
+}
+.portfolio .services .servicesUl li {
+  padding: 2rem 1rem;
+}
+.portfolio .portfolio,
+.portfolio .portfolio img {
+  height: 55vh;
+}
+.portfolio .services .servicesIcon {
+  font-size: 1.2rem;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  padding: 12px;
+}
+.portfolio footer h4 {
+  padding: 3rem;
+}
+.portfolio footer .footerContainer {
+  padding: 4rem 0;
+}
+.portfolio footer .footerContainer div {
+  padding: 2rem;
+}
+.portfolio footer .footerContainer h3 {
+  padding-bottom: 0.9rem;
+}
+.portfolio .team {
+  padding: 8rem 0 6rem;
+}
+.portfolio .team h2 {
+  padding-bottom: 4rem;
+}
+.portfolio .teamUl .teamTextContent {
+  height: 200px;
+  padding: 70px 4rem 4rem;
+}
+
+@media (max-width: 680px) {
+  .portfolio {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .portfolio .portfolioTextcontainer {
+    width: 100%;
+    padding: 4.5rem 0;
+  }
+  .portfolio .portfolioTextcontainer p {
+    padding: 3rem 0;
+    width: 85%;
+  }
+  .portfolio .portfolioTextcontainer .portfolioButton {
+    padding: 1.9rem 2.1rem;
+    width: 180px;
+  }
+  .portfolio .portfolioImgContainer {
+    width: 100%;
+    height: 20rem;
+    overflow-y: hidden;
+  }
+}
+@media (max-width: 645px) {
+  footer .footerContainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  footer .footerContainer div {
+    width: 50%;
+    text-align: center;
+  }
+}
+@media (max-width: 640px) {
+  .services {
+    height: 65rem;
+  }
+  .services .servicesUl {
+    width: 95%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2rem 2rem;
+    gap: 0rem;
+  }
+  .services .servicesUl li {
+    width: 100%;
+    padding: 1.2rem 0rem;
+  }
+  .teamUl {
+    gap: 2rem;
+  }
+  .teamUl li,
+  .teamUl .workWithUs {
+    width: 45%;
+    height: auto;
   }
 }
 @media (max-width: 615px) {
   .brandingImgContainer .circleText {
-    left: 0%;
+    left: 3%;
+  }
+  .headerNavContainer {
+    display: none;
+  }
+}
+@media (max-width: 485px) {
+  .branding {
+    padding: 12rem 2rem 5rem;
+  }
+  .brandingTextContainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 2.5rem;
+    padding-top: 3rem;
+  }
+  .brandingTextContainer .brandingText {
+    width: 90%;
+  }
+  .brandingTextContainer .brandingText h3 {
+    padding-bottom: 1rem;
+  }
+  .team {
+    padding: 8rem 0 6rem;
+  }
+  .team h2 {
+    padding-bottom: 3rem;
+  }
+  .team .teamUl {
+    gap: 1rem;
+  }
+  .team .teamUl .teamTextContent {
+    height: 200px;
+    padding: 40px 4rem 4rem;
+  }
+  .team .teamUl .workWithUs {
+    padding: 0 3rem;
+  }
+  .team .teamUl .workWithUs h4 {
+    font-size: 1.3rem;
+  }
+  .portfolio .portfolioTextcontainer {
+    padding: 4.5rem 0;
+  }
+  .portfolio .portfolioTextcontainer p {
+    padding: 2rem 0;
+  }
+  .portfolio .portfolioTextcontainer .portfolioButton {
+    padding: 1.5rem 2rem;
+    width: 160px;
+    font-size: 1rem;
+  }
+}
+@media (max-width: 415px) {
+  .brandingImgContainer .circleText {
+    width: 120px;
+    top: -7vh;
+  }
+  .brandingTextContainer .brandingText h3 {
+    padding-bottom: 0.2rem;
+  }
+  .brandingTextContainer .brandingText p {
+    font-size: 1.1rem;
+  }
+  .services p {
+    font-size: 1.1rem;
+  }
+  .services .servicesUl li {
+    gap: 1rem;
+    padding: 0rem 0;
+    padding: 1rem 0rem;
+  }
+  .services .servicesIcon {
+    font-size: 1rem;
+    width: 30px;
+    height: 30px;
+    padding: 8px;
+  }
+  .gallery .galleryP {
+    width: 90%;
+  }
+}
+@media (max-width: 400px) {
+  footer .footerContainer div {
+    width: 80%;
+  }
+  .services {
+    height: 65rem;
+  }
+  .services .servicesUl {
+    padding: 2rem 1rem;
+  }
+  .gallery {
+    padding: 6rem 0;
+  }
+}
+@media (max-width: 385px) {
+  .team {
+    padding: 8rem 0 4.8rem;
+  }
+  .team h2 {
+    padding-bottom: 3rem;
+  }
+  .team .teamUl {
+    gap: 1rem;
+  }
+  .team .teamUl .teamTextContent p {
+    padding-top: 1rem;
+  }
+  .portfolio .portfolioTextcontainer {
+    width: 100%;
+    padding: 4.5rem 0;
+  }
+  .portfolio .portfolioTextcontainer p {
+    padding: 2rem 0;
+    width: 90%;
+  }
+  .portfolio .portfolioImgContainer {
+    height: 15rem;
+  }
+}
+@media (max-width: 340px) {
+  .services {
+    height: 70rem;
+  }
+  .services .servicesUl {
+    padding: 1.5rem 1rem;
+  }
+  .team p {
+    font-size: 1.1rem;
+  }
+  .gallery {
+    padding: 5rem 0;
+  }
+  .gallery img {
+    max-width: 80%;
+  }
+  .gallery .galleryP {
+    width: 90%;
+    padding-top: 2.5rem;
   }
 }
