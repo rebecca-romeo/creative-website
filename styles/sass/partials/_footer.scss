@@ -4,36 +4,72 @@ footer {
   color: v.$white;
   background-color: v.$black;
   text-align: left;
+
   h4 {
     padding: 4rem;
     border-top: 1px solid v.$grey;
     text-align: center;
   }
+
   h3 {
     padding-bottom: 3rem;
   }
+
   .footerContainer {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 9rem 0;
+
     div {
       width: 30%;
     }
+
     ul {
       list-style-type: disc;
     }
+
     li {
       line-height: 3.2rem;
     }
+
     address {
       font-style: normal;
     }
-    li:hover, 
+
+    li:hover,
     li:focus,
-    a:hover, 
+    a:hover,
     a:focus {
-        color: v.$sage;
+      color: v.$sage;
+    }
+  }
+}
+
+.signUp {
+  position: relative;
+
+  input {
+    margin-top: 2.5rem;
+    padding: 1.4rem;
+    border: none;
+    font-family: v.$montserrat;
+    letter-spacing: 0.5px;
+    width: 90%;
+  }
+
+  .rightArrow {
+    color: v.$black;
+    background-color: v.$sage;
+    padding: 1.5rem;
+    border: none;
+    margin-left: -48px;
+
+    &:hover,
+    &:focus {
+      color: v.$white2;
+      background-color: rgb(45, 143, 45);
+      transition: 0.5s;
     }
   }
 }

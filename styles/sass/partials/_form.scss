@@ -1,33 +1,6 @@
 @use './variables' as v;
 
 
-// maybe move this into the footer partial 
-.signUp {
-  position: relative;
-  input {
-    margin-top: 2.5rem;
-    padding: 1.4rem;
-    border: none;
-    font-family: v.$montserrat;
-    letter-spacing: 0.5px;
-    width: 70%;
-  }
-  .rightArrow {
-    color: v.$black;
-    background-color: v.$sage;
-    padding: 1.5rem;
-    border: none;
-    margin-left: -48px;
-    &:hover,
-    &:focus {
-      color: v.$white2;
-      background-color: rgb(45, 143, 45);
-      transition: 0.5s;
-    }
-
-  }
-  
-}
 
 .submitCommentForm {
   text-align: left;
