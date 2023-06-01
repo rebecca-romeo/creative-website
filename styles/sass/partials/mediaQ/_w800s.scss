@@ -1,5 +1,17 @@
 @use "../variables" as v;
 
+@media (max-width: 880px) {
+  .blogHeader {
+    background-position: 30%;
+  }
+  .blogFlexContainer {
+    padding: 7rem 0 3rem;
+    .blogInfo {
+      gap: 3rem;
+    }
+  }
+}
+
 @media (max-width: 840px) {
   .brandingImgContainer .circleText {
     left: 10%;
