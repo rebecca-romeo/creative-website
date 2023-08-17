@@ -1361,6 +1361,16 @@ footer .footerContainer a:focus {
     width: 160px;
     font-size: 1rem;
   }
+  .userInfo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .submitCommentForm .userInfo input {
+    width: 45%;
+  }
 }
 @media (max-width: 415px) {
   .brandingImgContainer .circleText {
@@ -1403,16 +1413,6 @@ footer .footerContainer a:focus {
   }
   .gallery {
     padding: 6rem 0;
-  }
-  .userInfo {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
-  .submitCommentForm .userInfo input {
-    width: 45%;
   }
 }
 @media (max-width: 385px) {
