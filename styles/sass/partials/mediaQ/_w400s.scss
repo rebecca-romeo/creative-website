@@ -112,6 +112,14 @@
       width: 90%;
     }
   }
+
+  .blogHeader, .indexHeader {
+    height: 40vh;
+  }
+
+  .blogHeader {
+    background-position: 30%;
+  }
 }
 
 @media (max-width: 400px) {

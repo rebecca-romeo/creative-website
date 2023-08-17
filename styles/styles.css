@@ -418,7 +418,7 @@ textarea::placeholder {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 3.5rem 0;
+  padding: 1rem 0;
 }
 .headerNavContainer ul {
   display: -webkit-box;
@@ -1017,7 +1017,7 @@ footer .footerContainer a:focus {
     padding-bottom: 2rem;
   }
 }
-@media (max-width: 800px) {
+@media (max-width: 810px) {
   .headerNavContainer i {
     font-size: 1.9rem;
   }
@@ -1038,28 +1038,8 @@ footer .footerContainer a:focus {
   .portfolio .portfolioTextcontainer p {
     padding: 3rem 0;
   }
-  footer h3 {
-    font-size: 1.5rem;
-  }
-  footer h4 {
-    padding: 2rem 0;
-    font-size: 1.3rem;
-  }
-  footer .footerContainer {
-    padding: 3.5rem 0;
-    font-size: 1rem;
-  }
-  footer .footerContainer div {
-    width: 33%;
-  }
-  footer .footerContainer .signUp input {
-    padding: 1rem;
-    width: 90%;
-    margin-top: 1rem;
-  }
-  footer .footerContainer .signUp .rightArrow {
-    padding: 1.1rem 1rem;
-    margin-left: -3.3rem;
+  .blogHeader, .indexHeader {
+    height: 60vh;
   }
   .contactDetails .contactOptions {
     -webkit-box-orient: vertical;
@@ -1086,6 +1066,29 @@ footer .footerContainer a:focus {
     border-top: 1px solid lightgray;
     border-bottom: 1px solid lightgray;
     padding: 5rem 0;
+  }
+  footer h3 {
+    font-size: 1.5rem;
+  }
+  footer h4 {
+    padding: 2rem 0;
+    font-size: 1.3rem;
+  }
+  footer .footerContainer {
+    padding: 3.5rem 0;
+    font-size: 1rem;
+  }
+  footer .footerContainer div {
+    width: 33%;
+  }
+  footer .footerContainer .signUp input {
+    padding: 1rem;
+    width: 90%;
+    margin-top: 1rem;
+  }
+  footer .footerContainer .signUp .rightArrow {
+    padding: 1.1rem 1rem;
+    margin-left: -3.3rem;
   }
 }
 @media (max-width: 780px) {
@@ -1309,6 +1312,9 @@ footer .footerContainer a:focus {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .blogHeader, .indexHeader {
+    height: 50vh;
+  }
 }
 @media (max-width: 485px) {
   .branding {
@@ -1399,6 +1405,12 @@ footer .footerContainer a:focus {
   }
   .gallery .galleryP {
     width: 90%;
+  }
+  .blogHeader, .indexHeader {
+    height: 40vh;
+  }
+  .blogHeader {
+    background-position: 30%;
   }
 }
 @media (max-width: 400px) {

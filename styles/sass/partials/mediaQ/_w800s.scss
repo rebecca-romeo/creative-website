@@ -4,8 +4,10 @@
   .blogHeader {
     background-position: 30%;
   }
+
   .blogFlexContainer {
     padding: 7rem 0 3rem;
+
     .blogInfo {
       gap: 3rem;
     }
@@ -35,7 +37,7 @@
 }
 
 
-@media (max-width: 800px) {
+@media (max-width: 810px) {
   .headerNavContainer {
     i {
       font-size: 1.9rem;
@@ -63,6 +65,36 @@
 
     .portfolioTextcontainer p {
       padding: 3rem 0;
+    }
+  }
+
+  .blogHeader, .indexHeader {
+    height: 60vh;
+  }
+
+  .contactDetails {
+    .contactOptions {
+      flex-direction: column;
+      padding: 10rem 0;
+      margin: 0 auto;
+      width: 75%;
+      gap: 4rem;
+
+      address {
+        padding: 0px;
+        display: flex;
+        i {
+          padding-right: 2rem;
+          padding-top: 1rem;
+        }
+      }
+
+      .location {
+        border: none;
+        border-top: 1px solid lightgray;
+        border-bottom: 1px solid lightgray;
+        padding: 5rem 0;
+      }
     }
   }
 
@@ -99,32 +131,4 @@
     }
   }
 
-.contactDetails {
-  .contactOptions {
-    flex-direction: column;
-    padding: 10rem 0;
-    margin: 0 auto;
-    width: 75%;
-    gap: 4rem;
-    address {
-      padding: 0px;
-      display: flex;
-      // gap: 2rem;
-      i {
-        padding-right: 2rem;
-        padding-top: 1rem;
-      }
-    }
-    .location {
-      border: none;
-      border-top: 1px solid lightgray;
-      border-bottom: 1px solid lightgray;
-      padding: 5rem 0;
-    }
-
-  }
-
 }
-
-}
-
