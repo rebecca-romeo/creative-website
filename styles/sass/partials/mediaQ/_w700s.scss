@@ -4,18 +4,22 @@
   .blogHeader {
     background-position: 25%;
   }
+
   .blogPost {
     padding: 10rem 0;
+
     h2 {
       font-size: 5.7rem;
       line-height: 5.7rem;
       padding-bottom: 1.6rem;
     }
   }
+
   .blogFlexContainer {
     padding: 6rem 0 3rem;
     flex-direction: column;
     align-items: flex-start;
+
     .author {
       padding-bottom: 3rem;
     }
@@ -51,26 +55,27 @@
   .gallery {
     padding: 8rem 0;
   }
-}
 
-.portfolio {
-  .portfolioTextcontainer {
-    width: 55%;
 
-    p {
-      padding: 4rem 0;
-      width: 85%;
+  .portfolio {
+    .portfolioTextcontainer {
+      width: 55%;
+
+      p {
+        padding: 4rem 0;
+        width: 85%;
+      }
+
+      .portfolioButton {
+        width: 180px;
+        font-size: 1.1rem;
+      }
     }
 
-    .portfolioButton {
-      width: 180px;
-      font-size: 1.1rem;
+
+    .brandingImgContainer .circleText {
+      left: 5%;
     }
-  }
-
-
-  .brandingImgContainer .circleText {
-    left: 5%;
   }
 
 
@@ -133,6 +138,40 @@
       height: 200px;
       padding: 70px 4rem 4rem;
     }
+  }
+
+  .contactDetails {
+    padding: 9rem 0 0;
+
+    .contactOptions {
+      padding: 5rem 0 6.5rem;
+
+      address {
+        h4 {
+          font-size: 1.35rem;
+        }
+
+        i {
+          font-size: 2.5rem;
+        }
+      }
+    }
+  }
+
+  .contactMainSection .contactH2 {
+    font-size: 4rem;
+    line-height: 4rem;
+    font-weight: 700;
+    position: relative;
+    top: 6.3rem;
+  }
+
+  .contactMainSection h3 {
+    padding: 1rem 0;
+  }
+
+  .leaveComment {
+    padding-bottom: 4rem;
   }
 
 }

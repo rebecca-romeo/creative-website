@@ -98,4 +98,33 @@
       }
     }
   }
+
+.contactDetails {
+  .contactOptions {
+    flex-direction: column;
+    padding: 10rem 0;
+    margin: 0 auto;
+    width: 75%;
+    gap: 4rem;
+    address {
+      padding: 0px;
+      display: flex;
+      // gap: 2rem;
+      i {
+        padding-right: 2rem;
+        padding-top: 1rem;
+      }
+    }
+    .location {
+      border: none;
+      border-top: 1px solid lightgray;
+      border-bottom: 1px solid lightgray;
+      padding: 5rem 0;
+    }
+
+  }
+
 }
+
+}
+
