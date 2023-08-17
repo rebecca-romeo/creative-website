@@ -122,4 +122,12 @@
   .gallery {
     padding: 6rem 0;
   }
+
+  .userInfo {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .submitCommentForm .userInfo input {
+    width: 45%;
+  }
 }
