@@ -453,10 +453,10 @@ textarea::placeholder {
 
 .line {
   width: 0;
-  height: 12rem;
+  height: 10rem;
   border: 0.5px solid grey;
   position: absolute;
-  bottom: -80px;
+  top: 430px;
   right: 50vw;
 }
 
