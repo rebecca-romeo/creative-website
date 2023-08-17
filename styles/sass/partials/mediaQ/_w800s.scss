@@ -68,7 +68,8 @@
     }
   }
 
-  .blogHeader, .indexHeader {
+  .blogHeader,
+  .indexHeader {
     height: 60vh;
   }
 
@@ -83,6 +84,7 @@
       address {
         padding: 0px;
         display: flex;
+
         i {
           padding-right: 2rem;
           padding-top: 1rem;

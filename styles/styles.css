@@ -1038,7 +1038,8 @@ footer .footerContainer a:focus {
   .portfolio .portfolioTextcontainer p {
     padding: 3rem 0;
   }
-  .blogHeader, .indexHeader {
+  .blogHeader,
+  .indexHeader {
     height: 60vh;
   }
   .contactDetails .contactOptions {
@@ -1092,9 +1093,6 @@ footer .footerContainer a:focus {
   }
 }
 @media (max-width: 780px) {
-  .blogHeader {
-    background-position: 25%;
-  }
   .blogPost {
     padding: 10rem 0;
   }
@@ -1313,7 +1311,7 @@ footer .footerContainer a:focus {
             flex-direction: column;
   }
   .blogHeader, .indexHeader {
-    height: 50vh;
+    height: 65vh;
   }
 }
 @media (max-width: 485px) {
@@ -1407,7 +1405,7 @@ footer .footerContainer a:focus {
     width: 90%;
   }
   .blogHeader, .indexHeader {
-    height: 40vh;
+    height: 55vh;
   }
   .blogHeader {
     background-position: 30%;
